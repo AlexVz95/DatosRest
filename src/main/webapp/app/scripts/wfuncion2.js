@@ -9,7 +9,7 @@ angular.module('app')
 	    		usuario: $scope.username,
 	    		password: $scope.password,
 	    	},
-	    	url: 'http://localhost:8080/restFull/services/datos/nombre',
+	    	url: 'http://localhost:8080/EjercicioExamen1/services/datos/nombre',
 	    }).then(function(dataCP){
 	    	console.log(dataCP)
 	    	$scope.name = dataCP.data.name;
