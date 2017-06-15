@@ -18,6 +18,7 @@ angular.module('app')
 	    	$scope.edad = dataCP.data.edad;
 	    	$scope.sexo = dataCP.data.sexo;
 	    	
+	    	$scope.mensaje = dataCP.data.name;
 	    	
 	    });
 		

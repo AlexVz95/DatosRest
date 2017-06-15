@@ -1,0 +1,63 @@
+
+body{
+    color: red;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#welcome {
+    background-color: azure;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px
+}
+
+button{
+    color: red;
+    background-color: dodgerblue;
+    border: 10px;
+    
+    
+}
+button:hover{
+    color: darkorchid;
+    color:darkred;
+    
+}
+#datos {
+    background-color: azure;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
+}
+
+fieldset
+{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#inputs input
+{
+    background: #f1f1f1 url(../img/login-sprite.png) no-repeat;
+    padding: 15px 15px 15px 30px;
+    margin: 0 0 10px 0;
+    width: 353px; /* 353 + 2 + 45 = 400 */
+    border: 1px solid #ccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+}
+
+#inputs input:focus
+{
+    background-color: #fff;
+    border-color: #e8c291;
+    outline: none;
+    -moz-box-shadow: 0 0 0 1px #e8c291 inset;
+    -webkit-box-shadow: 0 0 0 1px #e8c291 inset;
+    box-shadow: 0 0 0 1px #e8c291 inset;
+}
